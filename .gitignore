@@ -2,3 +2,6 @@
 # IntelliJ Files #
 .idea
 DailyCodingProblems.iml
+
+# Out #
+out
