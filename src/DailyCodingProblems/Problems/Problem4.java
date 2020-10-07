@@ -34,4 +34,21 @@ public class Problem4 {
         }
         return numberList;
     }
+
+    public static int solution(int[] numberList) {
+        if (numberList.length == 0) {
+            return 1;
+        }
+
+        int missingNum = 1;
+
+        for (int i : numberList) {
+            if (i == missingNum) {
+                missingNum++;
+            }
+        }
+
+        return missingNum;
+
+    }
 }
