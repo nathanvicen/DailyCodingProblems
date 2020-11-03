@@ -58,3 +58,26 @@ The input `[1, 2, 0]` should give `3`.
 [Problem #4 Source](src/DailyCodingProblems/Problems/Problem4.java)
 
 [Problem #4 Test](test/DailyCodingProblems/Problems/Problem4Test.java)
+
+
+## Problem 5
+`cons(a, b)` constructs a pair
+`car(pair)` returns the first element of that pair
+`cdr(pair)` returns the last elements of that pair
+
+`car(cons(3,4))` returns `3`
+`cdr(cons(3,4))` returns `4`
+
+Given this implementation of cons:
+```
+def cons(a, b):
+    def pair(f):
+        return f(a, b)
+    return pair
+```
+
+Implement, `car` and `cdr`.
+
+[Problem #5 Source](src/DailyCodingProblems/Problems/Problem5.java) TODO
+
+[Problem #5 Test](test/DailyCodingProblems/Problems/Problem5Test.java) TODO
